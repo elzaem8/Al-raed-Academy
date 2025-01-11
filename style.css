@@ -1,0 +1,196 @@
+
+.home #well {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(15, 13, 13);
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 6px;
+    font-size: 2.12rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+    
+}
+#well:hover {
+    color: gold;
+    text-shadow: 2px 2px 4px rgb(236, 135, 4);
+}
+*{
+    
+    box-sizing: border-box;
+    background-color: rgb(43, 42, 42);
+    transition: all 0.3s ease-in-out;
+}
+html{
+    font-size: 16px;
+}
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.9s;
+    
+
+}
+
+body{
+    background-color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+}
+h3{
+    color: whitesmoke;
+}
+h1{
+    color: white;
+    text-transform: capitalize;
+}
+h2{
+    color: white;
+}
+
+span{
+    color: gold;
+}
+span:hover{
+    color: rgba(248, 9, 9, 0.89);
+    
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgb(43, 42, 42);
+    padding: 15px;
+}
+.nav-button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0,3s;
+    transform: 0.4s;
+}
+.nav-button:hover{
+    background-color: gold;
+    color: rgb(43, 42, 42);
+    transform: scale(1.05);
+}
+
+#hh{
+    font-size: 18px;
+}
+    
+
+
+
+.content{
+    flex-grow: 1;
+    padding: 0 2% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-texts{
+    position: relative;
+    bottom: 1px;
+    font-size: 17px;
+}
+.home .container-images{
+    width: 30%;
+    height: 60%;
+    position: relative;
+    align-self: self-end;
+    align-items: end;
+    align-items: flex-end;
+
+}
+
+
+
+.home{
+    width: 100;
+    height: 100vh;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+}
+
+.home #ff {
+    text-shadow: 1px 1px 5px rgb(10, 44, 233), 0 0 4px rgb(3, 3, 12) , 2px 2px 5px darkblue;
+}
+
+
+
+@media screen and (max-width:575px){
+
+html {
+    font-size: 13px;
+    background-color: rgb(43, 42, 42);
+    font-family: "Josefin sans", sans-serif;
+}
+
+*{
+    background-color: rgb(43, 42, 42);
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.container-images{
+    display: none;
+}
+.container-texts{
+    bottom: 9.8rem ;
+}
+.container-texts #vv{
+    padding-top: 12px;
+}
+.home{
+    
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(43, 42, 42);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container-texts{
+    position: relative;
+    bottom: 50px;
+}
+
+.content{
+    flex-grow: 1;
+    padding: 0 4% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+
+#vv{
+    padding-bottom: 15px;
+}
+#ma{
+    padding-bottom: 15px;
+}
+#book{
+    padding-bottom: 15px;
+}
+#booking{
+    padding-bottom: 15px;
+}
+#ll{
+    padding-bottom: 15px;
+}
+#hh{
+    padding-bottom: 16px;
+}
+}

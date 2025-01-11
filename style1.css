@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+}
+.service{
+    font-size: 16px;
+}
+
+h1{
+    color: antiquewhite;
+}
+h2{
+    color: antiquewhite;
+}
+
+h3{
+    color: antiquewhite;
+}
+
+span{
+    color: gold;
+}
+
+#head{
+    text-align: center;
+    color: antiquewhite;
+}
+#head:hover{
+    color: gold;
+}
