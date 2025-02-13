@@ -66,7 +66,7 @@ span:hover{
     padding: 15px;
 }
 .nav-button{
-    background-color: #4CAF50;
+    background-color: #1e38ca;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -124,6 +124,12 @@ span:hover{
 .home #ff {
     text-shadow: 1px 1px 5px rgb(10, 44, 233), 0 0 4px rgb(3, 3, 12) , 2px 2px 5px darkblue;
 }
+.container-texts #map{
+
+    margin-left: 350px;
+    background-color: rgba(248, 9, 9, 0.89);
+    
+}
 
 
 
@@ -141,6 +147,13 @@ html {
     padding: 0;
     transition: all 0.3s ease-in-out;
 }
+.container-texts #map{
+    margin-top: 10px;
+    margin-left: 130px;
+    background-color: rgba(248, 9, 9, 0.89);
+    
+}
+
 
 .container-images{
     display: none;
